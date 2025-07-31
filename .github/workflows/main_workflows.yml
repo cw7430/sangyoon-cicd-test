@@ -6,8 +6,8 @@ on:
       -main
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-      -name: print hello
-      run: echo "test"
+      - name: Checkout code
+        run: echo "test"
