@@ -3,7 +3,7 @@ name: Main_Workflows
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   build:
